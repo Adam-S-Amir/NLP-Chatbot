@@ -5,7 +5,8 @@ The success of the chatbot will be measured based on its ability to:
 1.	Place a phone call to a hair salon and successfully book an appointment.
 2.	Place a phone call to a restaurant and order food according to the user's specifications.
 3.	Place a phone call to a friend, emulate my voice, and carry out an entire conversation without my friend realizing they're talking to an AI instead of me.
-Build a conversational AI that can interact seamlessly with humans in real-time and perform specific tasks through phone calls. This will likely involve training the chatbot on a large dataset of conversations, developing robust speech recognition and synthesis capabilities, and ensuring the AI can handle various conversational nuances.
+4.	Build a conversational AI that can interact seamlessly with humans in real-time and perform specific tasks through phone calls.
+5.	This will likely involve training the chatbot on a large dataset of conversations, developing robust speech recognition and synthesis capabilities, and ensuring the AI can handle various conversational nuances.
 
 Step 1: Set Up Environment
 1. **Set Up a Virtual Environment**: keep dependencies isolated.
