@@ -9,35 +9,47 @@ The success of the chatbot will be measured based on its ability to:
 5.	This will likely involve training the chatbot on a large dataset of conversations, developing robust speech recognition and synthesis capabilities, and ensuring the AI can handle various conversational nuances.
 
 Step 1: Set Up Environment
+
 1. **Set Up a Virtual Environment**: keep dependencies isolated.
+
    ```bash
-   python -m venv chatbot_env
-   source chatbot_env/bin/activate  # For Windows: chatbot_env\Scripts\activate
+   python -m venv env
+   source env/bin/activate  # env\Scripts\activate
    ```
+
 Step 2: Install Required Libraries
+
 1. **Install Essential Libraries**: Use pip
+
    ```bash
-   pip install tensorflow keras nltk transformers torch
+   pip install -r requirements.txt
    ```
+
 Step 3: Data Collection and Preprocessing
+
 1. **Collect Data**: Download conversational datasets like the **Cornell Movie Dialogs Corpus** or **Persona-Chat**.
 2. **Preprocess Data**: Clean and preprocess the data.
+
    ```python
    import nltk
    from nltk.corpus import movie_reviews
-   
+
    nltk.download('movie_reviews')
    # Data preprocessing steps like tokenization, removing special characters, etc.
    ```
 
 Step 4: Model Training
+
 1. **Choose a Model Architecture**: Use pre built model like GPT-2 or BERT to train.
+
    ```python
    from transformers import GPT2Tokenizer, GPT2LMHeadModel
    tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
    model = GPT2LMHeadModel.from_pretrained('gpt2')
    ```
+
 2. **Fine-Tune the Model**: Train the model on my dataset.
+
    ```python
    from transformers import Trainer, TrainingArguments   
    training_args = TrainingArguments(
@@ -57,12 +69,17 @@ Step 4: Model Training
    ```
 
 Step 5: Specific Task Training
+
 1. **Train for Specific Tasks**: Create separate training loops for each task like appointments, ordering food, etc.
+
    ```python
    # Custom dataset and training loop for hair salon appointment task
    ```
+
 Step 6: Voice Emulation
+
 1. **Voice Synthesis**: Use libraries like Tacotron 2 or WaveNet.
+
    ```python
    # Example code for voice synthesis
    from pydub import AudioSegment
@@ -71,9 +88,13 @@ Step 6: Voice Emulation
    sound = AudioSegment.from_file("path_to_audio.wav")
    play(sound)
    ```
+
 Step 7: Evaluation and Testing
+
 1. **Test Bot**: Ensure it can handle the specific tasks efficiently.
+
 2. **Refine and Iterate**: Based on feedback, fine-tune the model.
 
 Step 8: Documentation and Tutorials
+
 1. Follow detailed tutorials and document progress.
