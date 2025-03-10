@@ -5,3 +5,7 @@ transformers
 torch
 pandas
 jupyter
+scikit-learn
+numpy
+parlai
+requests
