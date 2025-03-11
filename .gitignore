@@ -1,3 +1,2 @@
-/env/Lib
-/env/Scripts
-/env/share
+__pycache__/
+env/

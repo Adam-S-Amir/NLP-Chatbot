@@ -1,11 +1,4 @@
-tensorflow
-keras
-nltk
-transformers
 torch
-pandas
-jupyter
-scikit-learn
 numpy
-parlai
-requests
+nltk
+spellchecker
