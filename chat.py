@@ -3,6 +3,7 @@ import json
 import torch
 import os
 
+from transformers import GPT2LMHeadModel, GPT2Tokenizer
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 from spellchecker import SpellChecker
@@ -48,6 +49,18 @@ def correct_spelling(sentence):
     # Join the corrected words back into a full sentence and return it
     return ' '.join(corrected_words)
 
+# Load GPT-2 model and tokenizer from Hugging Face
+gpt2_tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
+gpt2_model = GPT2LMHeadModel.from_pretrained("gpt2").to(device)
+
+# Function to generate response using GPT-2
+def generate_gpt2_response(prompt):
+    inputs = gpt2_tokenizer.encode(prompt, return_tensors="pt").to(device)
+    outputs = gpt2_model.generate(inputs, max_length=100, num_return_sequences=1, no_repeat_ngram_size=2, temperature=0.7, top_p=0.9, top_k=50)
+    response = gpt2_tokenizer.decode(outputs[0], skip_special_tokens=True)
+    return response.strip()
+
+
 os.system('cls' if os.name == 'nt' else 'clear')
 
 # Loop where the bot listens for user input
@@ -87,4 +100,8 @@ while True:
                     exit()
     else:
         # If the model is unsure (probability too low), output for user clarity
-        print(f"{bot_name}: I do not understand.")
+        print(f"{bot_name}: I do not understand. Let me try to generate a response...")
+
+        # If the model is unsure, fall back to GPT-2 to generate a response
+        # gpt2_response = generate_gpt2_response(sentence)
+        # print(f"{bot_name}: {gpt2_response}")
