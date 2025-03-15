@@ -9,7 +9,10 @@ from nltk_utils import bag_of_words, tokenize, stem
 from model import NeuralNet
 
 # Load the intents from JSON file
-with open('intents.json', 'r') as f:
+Path = "data/raw/"
+FileName = "salon"
+FullPath = Path + FileName + ".json"
+with open(FullPath, 'r') as f:
     intents = json.load(f)
 
 # List to store all unique words from the patterns
@@ -178,6 +181,8 @@ data = {
 }
 
 # Save the model data
-FILE = "data.pth"
-torch.save(data, FILE)
+FILE = f"{FileName}.pth"
+SAVEPATH = "data/processed/"
+FULLSAVEPATH = SAVEPATH + FILE
+torch.save(data, FULLSAVEPATH)
 print(f'training complete.')

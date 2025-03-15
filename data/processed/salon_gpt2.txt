@@ -1,0 +1,231 @@
+User: Hello
+Bot: Hi, I'm looking to book a haircut, when is your earliest availability?
+
+User: Hi
+Bot: When is the soonest you have an opening for a haircut?
+
+User: Hey
+Bot: Hello, I'd like to schedule a haircut, when is your next available slot?
+
+User: Hello, how can I help you?
+Bot: When is the soonest you have an opening for a haircut?
+
+User: Hello, how can we help you?
+Bot: Good to hear from you! How can I assist you today?
+
+User: How are you?
+Bot: Can you tell me when I can book a haircut?
+
+User: How's it going?
+Bot: Hi, I'm looking to book a haircut, when is your earliest availability?
+
+User: How can I help you?
+Bot: Hi, I'm looking to book a haircut, when is your earliest availability?
+
+User: How can we help you?
+Bot: Hi, I'm looking to book a haircut, when is your earliest availability?
+
+User: Hi there! Welcome to [Salon Name], how may I assist you today?
+Bot: Hi, I'm looking to book a haircut, when is your earliest availability?
+
+User: Good day! How can I assist you at [Salon Name] today?
+Bot: When is the soonest you have an opening for a haircut?
+
+User: Good morning!
+Bot: When is the soonest you have an opening for a haircut?
+
+User: Good afternoon!
+Bot: Hi, I'm looking to book a haircut, when is your earliest availability?
+
+User: Good evening!
+Bot: I need to book a haircut, when can I come in?
+
+User: We have availability at [time] tomorrow. Does that work for you?
+Bot: Let's schedule for [day] at [time].
+
+User: Our next opening is at [time] on [day]. Would you like to book that?
+Bot: Got it! I’ll reserve that time for you.
+
+User: I have a slot available at [time] on [day]. Should I reserve that for you?
+Bot: Got it! I’ll reserve that time for you.
+
+User: You can book a haircut with us at [time] on [date]. Would that work for you?
+Bot: Got it! I’ll reserve that time for you.
+
+User: The earliest we have is at [time] tomorrow. Would that be good?
+Bot: Let's schedule for [day] at [time].
+
+User: We have a couple of openings for haircuts on [day] at [time] and [time]. Which would be best for you?
+Bot: Perfect! I’ve booked that time for you.
+
+User: I have availability at [time] on [day] or [time] on [day]. What time works for you?
+Bot: Got it! I’ll reserve that time for you.
+
+User: We can fit you in on [day] at [time] or [time] if that’s convenient for you.
+Bot: Let's schedule for [day] at [time].
+
+User: The next available slot for a haircut is [time] on [day]. Does that work for you?
+Bot: Got it! I’ll reserve that time for you.
+
+User: We have openings at [time] and [time] tomorrow. Which would be better for you?
+Bot: Perfect! I’ve booked that time for you.
+
+User: Is [time] on [day] a good time for your haircut?
+Bot: Perfect! I’ve booked that time for you.
+
+User: How about we schedule for [day] at [time]?
+Bot: Perfect! I’ve booked that time for you.
+
+User: I’ll schedule your [service] for [day] at [time]. What's your name?
+Bot: My name is Captain Jack, thank you.
+
+User: What's your name?
+Bot: Sure! My name is Captain Jack.
+
+User: Can I get a name?
+Bot: Sure! My name is Captain Jack.
+
+User: Can I get a name for the appointment?
+Bot: Captain Jack
+
+User: May I have your name, please?
+Bot: My name is Captain Jack, thank you.
+
+User: Can you please provide your name?
+Bot: Sure! My name is Captain Jack.
+
+User: What’s your full name?
+Bot: Sure! My name is Captain Jack.
+
+User: Can I get your name for booking?
+Bot: Captain Jack
+
+User: I’ll schedule your [service] for [day] at [time]. What's your phone number?
+Bot: 804-360-5892
+
+User: What's your phone number?
+Bot: My phone number is 804-360-5892.
+
+User: Can I get a phone number?
+Bot: 804-360-5892
+
+User: Can I get a phone number for the appointment?
+Bot: 804-360-5892
+
+User: What's the best phone number to reach you at?
+Bot: Here’s my phone number: 804-360-5892.
+
+User: Can you share your phone number with us?
+Bot: 804-360-5892
+
+User: Please provide a phone number for confirmation.
+Bot: My phone number is 804-360-5892.
+
+User: Great! Your appointment has been scheduled. See you on [date] at [time]!
+Bot: Yes, that’s correct, thank you.
+
+User: Your appointment is confirmed! We’ll see you for [service] on [date] at [time].
+Bot: That sounds good, thank you.
+
+User: Your haircut is scheduled for [day] at [time]. Is that correct?
+Bot: I confirm, thank you.
+
+User: I’ve booked your appointment for [day] at [time]. Does that sound good?
+Bot: That sounds good, thank you.
+
+User: Your appointment for [service] is all set for [date] at [time].
+Bot: That’s perfect, thank you.
+
+User: Thanks for booking! We’ll see you on [date] at [time].
+Bot: I confirm, thank you.
+
+User: Thank you for calling [Salon Name], have a great day!
+Bot: Thank you, bye
+
+User: Take care! We look forward to seeing you soon.
+Bot: Take care, see you soon!
+
+User: Thanks for calling, we hope to see you soon!
+Bot: Take care, see you soon!
+
+User: Goodbye!
+Bot: Bye
+
+User: See you later!
+Bot: See you
+
+User: Have a nice day!
+Bot: Goodbye
+
+User: Thanks for choosing [Salon Name]!
+Bot: Bye
+
+User: I need to cancel my appointment.
+Bot: Your appointment for [day] at [time] has been successfully canceled.
+
+User: I would like to cancel my appointment for [day] at [time].
+Bot: Your appointment has been canceled. Let us know if you’d like to reschedule.
+
+User: Can you cancel my appointment on [day] at [time]?
+Bot: I’m sorry to hear you need to cancel. We’ve canceled your appointment for [day] at [time].
+
+User: Please cancel my appointment.
+Bot: Your appointment has been canceled. Let us know if you’d like to reschedule.
+
+User: I need to reschedule my appointment.
+Bot: I’m sorry to hear you need to cancel. We’ve canceled your appointment for [day] at [time].
+
+User: Can I cancel my haircut appointment for [day] at [time]?
+Bot: I’m sorry to hear you need to cancel. We’ve canceled your appointment for [day] at [time].
+
+User: I need to reschedule my appointment.
+Bot: We’ve successfully rescheduled your appointment for [day] at [time].
+
+User: Can I change my appointment to [day] at [time]?
+Bot: We’ve successfully rescheduled your appointment for [day] at [time].
+
+User: Please reschedule my haircut for [day] at [time].
+Bot: We’ve successfully rescheduled your appointment for [day] at [time].
+
+User: I need to move my appointment to [day] at [time].
+Bot: We’ve successfully rescheduled your appointment for [day] at [time].
+
+User: Can you reschedule my appointment to [day] at [time]?
+Bot: Your appointment has been rescheduled to [day] at [time].
+
+User: What services do you offer?
+Bot: We offer a variety of haircuts, including men’s, women’s, and children’s styles. We also provide coloring, styling, and treatments.
+
+User: What type of haircuts do you provide?
+Bot: We provide a wide range of hair services including haircuts, styling, and coloring. Let us know what you need!
+
+User: Can you tell me about the services you offer?
+Bot: At [Salon Name], we offer haircuts, coloring, styling, and deep conditioning treatments.
+
+User: What kind of haircuts can I get?
+Bot: At [Salon Name], we offer haircuts, coloring, styling, and deep conditioning treatments.
+
+User: Do you offer coloring services?
+Bot: We offer a variety of haircuts, including men’s, women’s, and children’s styles. We also provide coloring, styling, and treatments.
+
+User: What other services are available at [Salon Name]?
+Bot: At [Salon Name], we offer haircuts, coloring, styling, and deep conditioning treatments.
+
+User: How much does a haircut cost?
+Bot: For a standard haircut, prices start at $30. Other services like styling and coloring may vary.
+
+User: What are your prices for haircuts?
+Bot: Haircuts at [Salon Name] start at $30. Prices vary by service and stylist.
+
+User: How much do you charge for a haircut?
+Bot: Haircuts at [Salon Name] start at $30. Prices vary by service and stylist.
+
+User: What are your rates for styling services?
+Bot: Our prices for haircuts vary depending on the service and stylist, starting at $30.
+
+User: Can you give me a price for a haircut?
+Bot: For a standard haircut, prices start at $30. Other services like styling and coloring may vary.
+
+User: How much for a haircut and styling?
+Bot: Our prices for haircuts vary depending on the service and stylist, starting at $30.
+

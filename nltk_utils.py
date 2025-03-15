@@ -3,7 +3,7 @@ import nltk
 from nltk.stem.porter import PorterStemmer
 
 # Download punkt (needed for tokenizing sentences)
-nltk.download("punkt")
+nltk.download("punkt_tab")
 
 # Creating instance of PorterStemmer
 stems = PorterStemmer()

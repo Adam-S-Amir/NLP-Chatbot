@@ -1,0 +1,188 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Hello, how can I help you?",
+        "Hello, how can we help you?",
+        "How are you?",
+        "How's it going?",
+        "How can I help you?",
+        "How can we help you?",
+        "Hi there! Welcome to [Salon Name], how may I assist you today?",
+        "Good day! How can I assist you at [Salon Name] today?",
+        "Good morning!",
+        "Good afternoon!",
+        "Good evening!"
+      ],
+      "responses": [
+        "Hello, I'd like to schedule a haircut, when is your next available slot?",
+        "Hi, I'm looking to book a haircut, when is your earliest availability?",
+        "When is the soonest you have an opening for a haircut?",
+        "I need to book a haircut, when can I come in?",
+        "What times do you have available for a haircut?",
+        "Can you tell me when I can book a haircut?",
+        "Good to hear from you! How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "book_appointment",
+      "patterns": [
+        "We have availability at [time] tomorrow. Does that work for you?",
+        "Our next opening is at [time] on [day]. Would you like to book that?",
+        "I have a slot available at [time] on [day]. Should I reserve that for you?",
+        "You can book a haircut with us at [time] on [date]. Would that work for you?",
+        "The earliest we have is at [time] tomorrow. Would that be good?",
+        "We have a couple of openings for haircuts on [day] at [time] and [time]. Which would be best for you?",
+        "I have availability at [time] on [day] or [time] on [day]. What time works for you?",
+        "We can fit you in on [day] at [time] or [time] if that’s convenient for you.",
+        "The next available slot for a haircut is [time] on [day]. Does that work for you?",
+        "We have openings at [time] and [time] tomorrow. Which would be better for you?",
+        "Is [time] on [day] a good time for your haircut?",
+        "How about we schedule for [day] at [time]?"
+      ],
+      "responses": [
+        "Let's schedule for [day] at [time].",
+        "Got it! I’ll reserve that time for you.",
+        "Perfect! I’ve booked that time for you."
+      ]
+    },
+    {
+      "tag": "provide_name",
+      "patterns": [
+        "I’ll schedule your [service] for [day] at [time]. What's your name?",
+        "What's your name?",
+        "Can I get a name?",
+        "Can I get a name for the appointment?",
+        "May I have your name, please?",
+        "Can you please provide your name?",
+        "What’s your full name?",
+        "Can I get your name for booking?"
+      ],
+      "responses": [
+        "Captain Jack",
+        "Sure! My name is Captain Jack.",
+        "My name is Captain Jack, thank you."
+      ]
+    },
+    {
+      "tag": "provide_phone",
+      "patterns": [
+        "I’ll schedule your [service] for [day] at [time]. What's your phone number?",
+        "What's your phone number?",
+        "Can I get a phone number?",
+        "Can I get a phone number for the appointment?",
+        "What's the best phone number to reach you at?",
+        "Can you share your phone number with us?",
+        "Please provide a phone number for confirmation."
+      ],
+      "responses": [
+        "804-360-5892",
+        "My phone number is 804-360-5892.",
+        "Here’s my phone number: 804-360-5892."
+      ]
+    },
+    {
+      "tag": "confirm_appointment",
+      "patterns": [
+        "Great! Your appointment has been scheduled. See you on [date] at [time]!",
+        "Your appointment is confirmed! We’ll see you for [service] on [date] at [time].",
+        "Your haircut is scheduled for [day] at [time]. Is that correct?",
+        "I’ve booked your appointment for [day] at [time]. Does that sound good?",
+        "Your appointment for [service] is all set for [date] at [time].",
+        "Thanks for booking! We’ll see you on [date] at [time]."
+      ],
+      "responses": [
+        "Yes, that’s correct, thank you.",
+        "That sounds good, thank you.",
+        "I confirm, thank you.",
+        "That’s perfect, thank you."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Thank you for calling [Salon Name], have a great day!",
+        "Take care! We look forward to seeing you soon.",
+        "Thanks for calling, we hope to see you soon!",
+        "Goodbye!",
+        "See you later!",
+        "Have a nice day!",
+        "Thanks for choosing [Salon Name]!"
+      ],
+      "responses": [
+        "Goodbye",
+        "Bye",
+        "See you",
+        "Thank you, bye",
+        "Take care, see you soon!"
+      ]
+    },
+    {
+      "tag": "cancel_appointment",
+      "patterns": [
+        "I need to cancel my appointment.",
+        "I would like to cancel my appointment for [day] at [time].",
+        "Can you cancel my appointment on [day] at [time]?",
+        "Please cancel my appointment.",
+        "I need to reschedule my appointment.",
+        "Can I cancel my haircut appointment for [day] at [time]?"
+      ],
+      "responses": [
+        "I’m sorry to hear you need to cancel. We’ve canceled your appointment for [day] at [time].",
+        "Your appointment for [day] at [time] has been successfully canceled.",
+        "Your appointment has been canceled. Let us know if you’d like to reschedule."
+      ]
+    },
+    {
+      "tag": "reschedule_appointment",
+      "patterns": [
+        "I need to reschedule my appointment.",
+        "Can I change my appointment to [day] at [time]?",
+        "Please reschedule my haircut for [day] at [time].",
+        "I need to move my appointment to [day] at [time].",
+        "Can you reschedule my appointment to [day] at [time]?"
+      ],
+      "responses": [
+        "Your appointment has been rescheduled to [day] at [time].",
+        "Your new appointment is set for [day] at [time].",
+        "We’ve successfully rescheduled your appointment for [day] at [time]."
+      ]
+    },
+    {
+      "tag": "service_inquiry",
+      "patterns": [
+        "What services do you offer?",
+        "What type of haircuts do you provide?",
+        "Can you tell me about the services you offer?",
+        "What kind of haircuts can I get?",
+        "Do you offer coloring services?",
+        "What other services are available at [Salon Name]?"
+      ],
+      "responses": [
+        "We offer a variety of haircuts, including men’s, women’s, and children’s styles. We also provide coloring, styling, and treatments.",
+        "At [Salon Name], we offer haircuts, coloring, styling, and deep conditioning treatments.",
+        "We provide a wide range of hair services including haircuts, styling, and coloring. Let us know what you need!"
+      ]
+    },
+    {
+      "tag": "pricing_inquiry",
+      "patterns": [
+        "How much does a haircut cost?",
+        "What are your prices for haircuts?",
+        "How much do you charge for a haircut?",
+        "What are your rates for styling services?",
+        "Can you give me a price for a haircut?",
+        "How much for a haircut and styling?"
+      ],
+      "responses": [
+        "Our prices for haircuts vary depending on the service and stylist, starting at $30.",
+        "Haircuts at [Salon Name] start at $30. Prices vary by service and stylist.",
+        "For a standard haircut, prices start at $30. Other services like styling and coloring may vary."
+      ]
+    }
+  ]
+}

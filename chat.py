@@ -12,11 +12,11 @@ from spellchecker import SpellChecker
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # Load the intents data to understand expected inputs and outputs
-with open('intents.json', 'r') as json_data:
+with open('data/raw/general.json', 'r') as json_data:
     intents = json.load(json_data)
 
 # Define trained data location
-FILE = "data.pth"
+FILE = "./data/processed/general.pth"
 
 # Load trained model data
 data = torch.load(FILE)

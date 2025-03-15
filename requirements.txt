@@ -3,3 +3,6 @@ numpy
 nltk
 pyspellchecker
 transformers
+datasets
+accelerate
+dateparser
