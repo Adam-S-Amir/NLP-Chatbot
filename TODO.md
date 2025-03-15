@@ -1,5 +1,5 @@
-further develop with GPT-2
-implement bing api
-add voice
+- [ ] process user input
+- [ ] respond according to user input
+- [ ] voice
 
 <!-- Virtual Expert & Generative Assistant -->
